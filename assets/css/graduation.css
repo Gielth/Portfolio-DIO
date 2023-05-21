@@ -1,0 +1,38 @@
+.graduation {
+    display: flex;
+    flex-direction: column;
+}
+
+.graduation .achievements ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.graduation .achievements ul li img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0 .5rem;
+}
+
+.graduation .courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.graduation .courses li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}

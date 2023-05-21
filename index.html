@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Gielth</title>
+
+    <!-- normalize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font open sans and playfair display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/acordeon.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/languages.css">
+    <!-- <link rel="stylesheet" href="./assets/css/graduation.css"> -->
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="./assets/css/experience.css">
+
+
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="./assets/img/fotoPerfil.jpeg" alt="Foto de perfil" class="fotoPerfil" id="profile.photo">
+
+            <h1 class="introTitle">Olá! <br> Eu sou o <span id="profile.name">Carregando...</span></h1>
+            <div class="contactInfo">
+                <p class="cargo" id="profile.cargo">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
+                <p class="whatsapp"><a href="tel:(31) 98225-0906"  id="profile.phone">Carregando...</a></p>
+                <p class="email"><a href="mailto:inaciospereira@gmail.com"  id="profile.mail">Carregando...</a></p>
+            </div>
+        </header>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                Skills
+            </button>
+            <div class="content">
+                <div class="skills">
+                    <section class="programming">
+                        <h3>Habilidades Programação</h3>
+                        <ul id="profileSkillsProgramming">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                        </ul>
+                    </section>
+                    <section class="personal">
+                        <h3>Habilidades Pessoais</h3>
+                        <ul id="profileSkillsPersonal">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                Idiomas
+            </button>
+            <div class="content">
+                <ul class="languages" id="profileLanguages">
+                    <li>Carregando...</li>
+                    <li>Carregando...</li>
+                    <li>Carregando...</li>
+                </ul>
+            </div>
+        </section>
+<!--         <section class="acordeon">
+            <button class="trigger" type="button">
+                Formação
+            </button>
+            <div class="content">
+                <div class="graduation">
+                    <Section class="achievements">
+                        <h3>Minhas consquistas DIO</h3>
+                        <ul>
+                            <li><img src="" alt="formação js" title="formaçãoJS"></li>
+                        </ul>
+                    </Section>
+                    <section class="courses">
+                        <ul>
+                            <li>
+                                <span class="title">dio.me</span>
+                                <p>Web Development! All you need to know in one place.</p>
+                            </li>
+                            <li>
+                                <span class="title">UFMG - Biblioteconomia</span>
+                                <p>Belo Horizonte - 2023 (Previsão de formação)</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section> -->
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                Portfólio
+            </button>
+            <div class="content">
+                <ul class="portfolio" id="profilePortfolio">
+                    <li>Carregando...</li>
+                    <li>Carregando...</li>
+                    <li>Carregando...</li>
+                    <li>Carregando...</li>
+                </ul>
+            </div>
+        </section>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                Experiencia Profissional
+            </button>
+            <div class="content">
+                <ul class="experience" id="profileExperience">
+                    <li>Carregando...</li>
+                    <li>Carregando...</li>
+                    <li>Carregando...</li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <a href="https://www.dio.me" target="_blank">
+                <img src="./assets/img/dio.svg" alt="logoDIO">
+            </a>
+        </footer>
+
+
+    </main>
+
+
+    <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
