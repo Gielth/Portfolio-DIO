@@ -53,18 +53,18 @@
 }
 
 .contactInfo .cargo::before{
-    background-image: url('/Modulo-IV/assets/img/icons/cargo.svg');
+    background-image: url('../img/icons/cargo.svg');
 }
 
 .contactInfo .location::before{
-    background-image: url('/Modulo-IV/assets/img/icons/location.svg');
+    background-image: url('../img/icons/location.svg');
 }
 
 .contactInfo .whatsapp::before{
-    background-image: url('/Modulo-IV/assets/img/icons/whatsapp.svg');
+    background-image: url('../img/icons/whatsapp.svg');
 }
 .contactInfo .email::before{
-    background-image: url('/Modulo-IV/assets/img/icons/mail.svg');
+    background-image: url('../img/icons/mail.svg');
 }
 
 @media screen and (min-width: 768px) {

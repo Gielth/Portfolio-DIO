@@ -28,7 +28,7 @@ a:hover{
 .main::before,
 .main::after {
     content: '';
-    background-image: url('/Modulo-IV/assets/img/background-top.svg');
+    background-image: url('../img/background-top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;

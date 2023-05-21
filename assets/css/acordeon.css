@@ -45,7 +45,7 @@
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background-image: url('/Modulo-IV/assets/img/icons/arrow.svg');
+    background-image: url('../img/icons/arrow.svg');
     background-repeat: no-repeat;
     background-size: contain;
     transition: .175s;
